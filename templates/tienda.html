@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cebadísimos - Tienda Oficial</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background-color: #f4f9f4; 
+        }
+        .navbar-custom { 
+            background-color: #1b4d3e; 
+        }
+        .card-product { 
+            border: none; 
+            border-radius: 12px; 
+            transition: transform 0.2s; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+        }
+        .card-product:hover { 
+            transform: translateY(-5px); 
+        }
+        .btn-green { 
+            background-color: #2e7d32; 
+            color: white; 
+            font-weight: 600; 
+        }
+        .btn-green:hover { 
+            background-color: #1b4d3e; 
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/tienda">Cebadísimos 🧉</a>
+            <div class="d-flex">
+                <a href="/" class="btn btn-outline-light btn-sm rounded-pill px-3">Cerrar Sesión</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido del Catálogo -->
+    <div class="container mt-5">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold text-success">Nuestro Catálogo</h1>
+            <p class="text-muted">Elegí tus accesorios materos favoritos</p>
+        </div>
+
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card card-product h-100 p-3">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold text-dark">Mate Imperial de Calabaza</h5>
+                            <p class="text-success fw-bold fs-5">$24.500</p>
+                            <p class="text-muted small">Stock disponible: 10</p>
+                        </div>
+                        <button class="btn btn-green rounded-pill w-100 mt-3">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card card-product h-100 p-3">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold text-dark">Bombilla Pico de Loro Acero</h5>
+                            <p class="text-success fw-bold fs-5">$8.200</p>
+                            <p class="text-muted small">Stock disponible: 15</p>
+                        </div>
+                        <button class="btn btn-green rounded-pill w-100 mt-3">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card card-product h-100 p-3">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold text-dark">Yerba Mate Artesanal 1kg</h5>
+                            <p class="text-success fw-bold fs-5">$6.500</p>
+                            <p class="text-muted small">Stock disponible: 25</p>
+                        </div>
+                        <button class="btn btn-green rounded-pill w-100 mt-3">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card card-product h-100 p-3">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold text-dark">Termo Bala 1 Litro</h5>
+                            <p class="text-success fw-bold fs-5">$35.000</p>
+                            <p class="text-muted small">Stock disponible: 8</p>
+                        </div>
+                        <button class="btn btn-green rounded-pill w-100 mt-3">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
